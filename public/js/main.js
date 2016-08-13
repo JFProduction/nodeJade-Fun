@@ -3,7 +3,6 @@ $('#pressMe').on('click', function() {
         url: 'getGamers',
         type: 'GET',
         success: function(data) {
-            console.log(data);
             $('#gameTblBody').html(data);
         },
         error: function(err) {

@@ -29,7 +29,8 @@ block aside
 block cif
     h2 CIF
     hr
-    input.dial#cif-dial(data-thickness=.3 readonly='readonly' value=28)
+    .dial-wrapper
+        input.dial#cif-dial(data-thickness=.3 readonly='readonly' value=28 data-width='140' data-height='150')
     p
         | This could be a small summary for the
         | application.
@@ -38,7 +39,8 @@ block cif
 block prefetch
     h2 Prefetch
     hr
-    input.dial#prefetch-dial(data-thickness=.3 readonly='readonly' value=67)
+    .dial-wrapper
+        input.dial#prefetch-dial(data-thickness=.3 readonly='readonly' value=67  data-width='140' data-height='150')
     p
         | This could be a small summary for the
         | application.
@@ -47,7 +49,8 @@ block prefetch
 block sort
     h2 Sort
     hr
-    input.dial#sort-dial(data-thickness=.3 readonly='readonly' value=89)
+    .dial-wrapper
+        input.dial#sort-dial(data-thickness=.3 readonly='readonly' value=89  data-width='140' data-height='150')
     p
         | This could be a small summary for the
         | application.
@@ -56,7 +59,8 @@ block sort
 block mda
     h2 MDA
     hr
-    input.dial#mda-dial(data-thickness=.3 readonly='readonly' value=15)
+    .dial-wrapper
+        input.dial#mda-dial(data-thickness=.3 readonly='readonly' value=15  data-width='140' data-height='150')
     p
         | This could be a small summary for the
         | application.
