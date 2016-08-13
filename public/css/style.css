@@ -1,0 +1,75 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #eee;
+}
+
+/************************************
+    navbar styles
+************************************/
+#nav-wrapper {
+    background: #333;
+}
+
+.collapse.navbar-collapse {
+    background: #333;
+    max-width: 1123px;
+    margin: auto;
+}
+
+.collapse.navbar-collapse ul li a {
+    color: white;
+}
+
+.collapse.navbar-collapse ul li a:hover {
+    transition: all 100ms ease-in-out;
+    color: #ff5252;
+    background: white;
+}
+
+
+/************************************
+    page styles
+************************************/
+.header {
+    background: #ff5252;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1118px;
+    margin-top: 10px;
+}
+
+.main-content {
+    max-width: 70%;
+    height: 300px;
+    background: white;
+    padding: 30px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.aside {
+    width: 23%;
+    min-height: 300px;
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.simple-btn {
+    border: 2px solid #ff5252;
+    background: white;
+    color: #ff5252;
+}
+
+.simple-btn:hover {
+    transition: all 200ms ease-in-out;
+    background: #ff5252;
+    color: white;
+}

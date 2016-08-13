@@ -1,0 +1,19 @@
+{
+    "name": "jadefun",
+    "version": "0.0.1",
+    "description": "Fun with NodeJS and Jade",
+    "main": "index.js",
+    "private": "true",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "dependencies" : {
+        "express": "^4.14.0",
+        "nib": "^1.0.4",
+        "path": "^0.4.10",
+        "jade": "^1.11.0"
+    },
+    "author": "jimmyfargo",
+    "license": "ISC"
+}

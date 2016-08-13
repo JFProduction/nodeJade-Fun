@@ -1,0 +1,28 @@
+.simple-tbl {
+    background: white;
+    min-width: 94.5%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.simple-tbl thead tr {
+    background: #333;
+    color: white;
+}
+
+.simple-tbl thead tr th,
+.simple-tbl tbody tr td,
+.simple-tbl tbody tr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.simple-tbl tbody tr:hover {
+    background: #ff5252;
+    color: white;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
