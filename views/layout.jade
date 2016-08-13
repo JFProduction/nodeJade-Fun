@@ -8,7 +8,7 @@ html
         link(rel='stylesheet', href='/css/table.css')
     body
         .header
-            h1 my portfolio
+            h1 eoc dashboard
         .container-fluid#nav-wrapper
             .navbar-header
                 button.navbar-toggle(data-toggle='collapse' data-target='#mainNavbar')
@@ -31,13 +31,13 @@ html
         
         .wrapper
             .aside
-                block aside
+                block cif
             .aside
-                block aside
+                block prefetch
             .aside
-                block aside
+                block sort
             .aside
-                block aside
+                block mda
         
         .wrapper
             table.simple-tbl
@@ -47,4 +47,5 @@ html
                         th Game
                 tbody#gameTblBody
         script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+        script(src='https://raw.githubusercontent.com/aterrien/jQuery-Knob/master/js/jquery.knob.js')
         script(src='/js/main.js')

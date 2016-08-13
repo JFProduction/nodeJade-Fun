@@ -62,6 +62,12 @@ body {
     vertical-align: top;
 }
 
+.dial {
+    margin: auto;
+    width: 120px;
+    height: 120px;
+}
+
 .simple-btn {
     border: 2px solid #ff5252;
     background: white;

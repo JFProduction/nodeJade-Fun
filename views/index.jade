@@ -1,11 +1,12 @@
 extend layout
 block content
-    h1 Main Content
+    h1 EOC Implementation
     hr
     p
-        | Vivamus hendrerit arcu sed erat molestie
-        | vehicula. Sed auctor neque eu tellus
-        | rhoncus ut eleifend nibh porttitor. Ut in.
+        | This could be used to show vital information
+        | on the implementation status. Everything at
+        | a high level on what is going on currently
+        | with this process will be displayed here.
     p
         | Donec congue lacinia dui, a porttitor
         | lectus condimentum laoreet. Nunc eu
@@ -15,12 +16,54 @@ block content
         | at nulla justo, eget luctus tortor.
 
 block aside
-    h2 Widget
+    h2 NEWS
     hr
     p
-        | Sed auctor neque eu tellus rhoncus ut
-        | eleifend nibh porttitor. Ut in nulla enim.
+        | This will be a small summary of what happened
+        | during the last implementation.
     p
         | Vivamus hendrerit arcu sed erat molestie
         | vehicula.
-    button.simple-btn#pressMe press me >>
+    button.simple-btn#pressMe see more >>
+    
+block cif
+    h2 CIF
+    hr
+    input.dial#cif-dial(data-thickness=.3 readonly='readonly' value=28)
+    p
+        | This could be a small summary for the
+        | application.
+    button.simple-btn cif details >>
+    
+block prefetch
+    h2 Prefetch
+    hr
+    input.dial#prefetch-dial(data-thickness=.3 readonly='readonly' value=67)
+    p
+        | This could be a small summary for the
+        | application.
+    button.simple-btn prefetch >>
+
+block sort
+    h2 Sort
+    hr
+    input.dial#sort-dial(data-thickness=.3 readonly='readonly' value=89)
+    p
+        | This could be a small summary for the
+        | application.
+    button.simple-btn sort detials >>
+
+block mda
+    h2 MDA
+    hr
+    input.dial#mda-dial(data-thickness=.3 readonly='readonly' value=15)
+    p
+        | This could be a small summary for the
+        | application.
+    button.simple-btn mda details >>
+    
+    
+    
+    
+    
+    
