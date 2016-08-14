@@ -1,4 +1,18 @@
 extend layout
+
+block adduser
+    div.modal-dialog 
+        div.modal-content
+            div.modal-header
+                button.close(type='button', data-dismiss='modal') &times;
+                h3 New User
+            div.modal-body
+                input.simple-input#username(type='text', placeholder='username')
+                input.simple-input#game(type='text', placeholder='game')
+                button.simple-btn#submit-user(type='submit') add user
+            div.modal-footer
+                button.btn.btn-default(type='button', data-dismiss='modal') Close
+
 block content
     h1 EOC Implementation
     hr
