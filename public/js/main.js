@@ -11,6 +11,24 @@ $('#pressMe').on('click', function() {
     });
 });
 
+$('#submit-user').on('click', function() {
+    if ($('#username').val().length > 0 || $('#game').val().length > 0) {
+        $.ajax({
+            url: 'addUser',
+            type: 'POST',
+            data: { username: $('#username').val(), game: $('#game').val() },
+            success: function(data) {
+                alert(data.msg);
+            },
+            error: function(err) {
+                alert(err);
+            }
+        });
+    }
+    else
+        alert('Oops! Must have all fields filled out!');
+});
+
 $('.dial').knob();
 
 $('.dial').trigger('configure', {
